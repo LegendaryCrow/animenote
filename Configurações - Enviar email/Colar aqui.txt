@@ -1,0 +1,1 @@
+Copy-paste the downloaded php_smtp.dll file in the “C:\wamp\bin\php\php5.2.6\ext\” folder.

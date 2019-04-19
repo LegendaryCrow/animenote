@@ -1,0 +1,3 @@
+Open php.ini (C:\wamp\bin\apache\apache2.2.8\bin\). Go to “Dynamic Extensions” section and copy-paste this line somewhere between extensions:
+extension=php_smtp.dll
+and save the file.
