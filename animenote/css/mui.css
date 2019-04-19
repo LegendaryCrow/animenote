@@ -1,0 +1,2136 @@
+/**
+ * MUI Appbar
+ */
+.skel-panels-fixed > mui--appbar-height {
+  height: 56px;
+}
+
+.skel-panels-fixed > mui--appbar-min-height, .skel-panels-fixed > mui-appbar {
+  min-height: 56px;
+}
+
+.skel-panels-fixed > mui--appbar-line-height {
+  line-height: 56px;
+}
+
+.skel-panels-fixed > mui--appbar-top {
+  top: 56px;
+}
+
+@media (orientation: landscape) and (max-height: 480px) {
+  .skel-panels-fixed > mui--appbar-height {
+    height: 48px;
+  }
+  .skel-panels-fixed > mui--appbar-min-height, .skel-panels-fixed > mui-appbar {
+    min-height: 48px;
+  }
+  .skel-panels-fixed > mui--appbar-line-height {
+    line-height: 48px;
+  }
+  .skel-panels-fixed > mui--appbar-top {
+    top: 48px;
+  }
+}
+
+@media (min-width: 480px) {
+  .skel-panels-fixed > mui--appbar-height {
+    height: 64px;
+  }
+  .skel-panels-fixed > mui--appbar-min-height, .skel-panels-fixed > mui-appbar {
+    min-height: 64px;
+  }
+  .skel-panels-fixed > mui--appbar-line-height {
+    line-height: 64px;
+  }
+  .skel-panels-fixed > mui--appbar-top {
+    top: 64px;
+  }
+}
+
+.skel-panels-fixed > mui-appbar {
+  background-color: #2196F3;
+  color: #FFF;
+}
+
+/**
+ * MUI Buttons
+ */
+.skel-panels-fixed > mui-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #FFF;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  height: 36px;
+  padding: 0 26px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background-image: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  font-family: inherit;
+  letter-spacing: 0.03em;
+  position: relative;
+  overflow: hidden;
+}
+
+.skel-panels-fixed > mui-btn:hover, .skel-panels-fixed > mui-btn:focus, .skel-panels-fixed > mui-btn:active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
+}
+
+.skel-panels-fixed > mui-btn[disabled]:hover, .skel-panels-fixed > mui-btn[disabled]:focus, .skel-panels-fixed > mui-btn[disabled]:active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #FFF;
+}
+
+.skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat:hover, .skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat:focus, .skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat:active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f2f2f2;
+}
+
+.skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat[disabled]:hover, .skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat[disabled]:focus, .skel-panels-fixed > mui-btn.skel-panels-fixed > mui-btn--flat[disabled]:active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn:hover, .skel-panels-fixed > mui-btn:focus, .skel-panels-fixed > mui-btn:active {
+  outline: 0;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.skel-panels-fixed > mui-btn:hover, .skel-panels-fixed > mui-btn:focus {
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skel-panels-fixed > mui-btn:hover, .skel-panels-fixed > mui-btn:focus {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .skel-panels-fixed > mui-btn:hover, .skel-panels-fixed > mui-btn:focus {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.skel-panels-fixed > mui-btn:active:hover {
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skel-panels-fixed > mui-btn:active:hover {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .skel-panels-fixed > mui-btn:active:hover {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.skel-panels-fixed > mui-btn:disabled, .skel-panels-fixed > mui-btn.skel-panels-fixed > mui--is-disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.60;
+  box-shadow: none;
+}
+
+.skel-panels-fixed > mui-btn + .skel-panels-fixed > mui-btn {
+  margin-left: 8px;
+}
+
+.skel-panels-fixed > mui-btn--flat {
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--flat:hover, .skel-panels-fixed > mui-btn--flat:focus, .skel-panels-fixed > mui-btn--flat:active, .skel-panels-fixed > mui-btn--flat:active:hover {
+  box-shadow: none;
+  background-color: #f2f2f2;
+}
+
+.skel-panels-fixed > mui-btn--raised, .skel-panels-fixed > mui-btn--fab {
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skel-panels-fixed > mui-btn--raised, .skel-panels-fixed > mui-btn--fab {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .skel-panels-fixed > mui-btn--raised, .skel-panels-fixed > mui-btn--fab {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.skel-panels-fixed > mui-btn--raised:active, .skel-panels-fixed > mui-btn--fab:active {
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skel-panels-fixed > mui-btn--raised:active, .skel-panels-fixed > mui-btn--fab:active {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .skel-panels-fixed > mui-btn--raised:active, .skel-panels-fixed > mui-btn--fab:active {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.skel-panels-fixed > mui-btn--fab {
+  position: relative;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.skel-panels-fixed > mui-btn--primary {
+  color: #FFF;
+  background-color: #2196F3;
+}
+
+.skel-panels-fixed > mui-btn--primary:hover, .skel-panels-fixed > mui-btn--primary:focus, .skel-panels-fixed > mui-btn--primary:active {
+  color: #FFF;
+  background-color: #39a1f4;
+}
+
+.skel-panels-fixed > mui-btn--primary[disabled]:hover, .skel-panels-fixed > mui-btn--primary[disabled]:focus, .skel-panels-fixed > mui-btn--primary[disabled]:active {
+  color: #FFF;
+  background-color: #2196F3;
+}
+
+.skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat {
+  color: #2196F3;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat:hover, .skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat:focus, .skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat:active {
+  color: #2196F3;
+  background-color: #f2f2f2;
+}
+
+.skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat[disabled]:hover, .skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat[disabled]:focus, .skel-panels-fixed > mui-btn--primary.skel-panels-fixed > mui-btn--flat[disabled]:active {
+  color: #2196F3;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--dark {
+  color: #FFF;
+  background-color: #424242;
+}
+
+.skel-panels-fixed > mui-btn--dark:hover, .skel-panels-fixed > mui-btn--dark:focus, .skel-panels-fixed > mui-btn--dark:active {
+  color: #FFF;
+  background-color: #4f4f4f;
+}
+
+.skel-panels-fixed > mui-btn--dark[disabled]:hover, .skel-panels-fixed > mui-btn--dark[disabled]:focus, .skel-panels-fixed > mui-btn--dark[disabled]:active {
+  color: #FFF;
+  background-color: #424242;
+}
+
+.skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat {
+  color: #424242;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat:hover, .skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat:focus, .skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat:active {
+  color: #424242;
+  background-color: #f2f2f2;
+}
+
+.skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat[disabled]:hover, .skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat[disabled]:focus, .skel-panels-fixed > mui-btn--dark.skel-panels-fixed > mui-btn--flat[disabled]:active {
+  color: #424242;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--danger {
+  color: #FFF;
+  background-color: #F44336;
+}
+
+.skel-panels-fixed > mui-btn--danger:hover, .skel-panels-fixed > mui-btn--danger:focus, .skel-panels-fixed > mui-btn--danger:active {
+  color: #FFF;
+  background-color: #f55a4e;
+}
+
+.skel-panels-fixed > mui-btn--danger[disabled]:hover, .skel-panels-fixed > mui-btn--danger[disabled]:focus, .skel-panels-fixed > mui-btn--danger[disabled]:active {
+  color: #FFF;
+  background-color: #F44336;
+}
+
+.skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat {
+  color: #F44336;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat:hover, .skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat:focus, .skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat:active {
+  color: #F44336;
+  background-color: #f2f2f2;
+}
+
+.skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat[disabled]:hover, .skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat[disabled]:focus, .skel-panels-fixed > mui-btn--danger.skel-panels-fixed > mui-btn--flat[disabled]:active {
+  color: #F44336;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--accent {
+  color: #FFF;
+  background-color: #FF4081;
+}
+
+.skel-panels-fixed > mui-btn--accent:hover, .skel-panels-fixed > mui-btn--accent:focus, .skel-panels-fixed > mui-btn--accent:active {
+  color: #FFF;
+  background-color: #ff5a92;
+}
+
+.skel-panels-fixed > mui-btn--accent[disabled]:hover, .skel-panels-fixed > mui-btn--accent[disabled]:focus, .skel-panels-fixed > mui-btn--accent[disabled]:active {
+  color: #FFF;
+  background-color: #FF4081;
+}
+
+.skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat {
+  color: #FF4081;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat:hover, .skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat:focus, .skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat:active {
+  color: #FF4081;
+  background-color: #f2f2f2;
+}
+
+.skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat[disabled]:hover, .skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat[disabled]:focus, .skel-panels-fixed > mui-btn--accent.skel-panels-fixed > mui-btn--flat[disabled]:active {
+  color: #FF4081;
+  background-color: transparent;
+}
+
+.skel-panels-fixed > mui-btn--small {
+  height: 30.6px;
+  line-height: 30.6px;
+  padding: 0 16px;
+  font-size: 13px;
+}
+
+.skel-panels-fixed > mui-btn--large {
+  height: 54px;
+  line-height: 54px;
+  padding: 0 26px;
+  font-size: 14px;
+}
+
+.skel-panels-fixed > mui-btn--fab.skel-panels-fixed > mui-btn--small {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.skel-panels-fixed > mui-btn--fab.skel-panels-fixed > mui-btn--large {
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+}
+
+/**
+ * MUI Checkboxe and Radio Components
+ */
+.skel-panels-fixed > mui-radio,
+.skel-panels-fixed > mui-checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skel-panels-fixed > mui-radio > label,
+.skel-panels-fixed > mui-checkbox > label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.skel-panels-fixed > mui-radio input:disabled,
+.skel-panels-fixed > mui-checkbox input:disabled {
+  cursor: not-allowed;
+}
+
+.skel-panels-fixed > mui-radio input:focus,
+.skel-panels-fixed > mui-checkbox input:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.skel-panels-fixed > mui-radio > label > input[type="radio"],
+.skel-panels-fixed > mui-radio--inline > label > input[type="radio"],
+.skel-panels-fixed > mui-checkbox > label > input[type="checkbox"],
+.skel-panels-fixed > mui-checkbox--inline > label > input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px;
+}
+
+.skel-panels-fixed > mui-radio + .skel-panels-fixed > mui-radio,
+.skel-panels-fixed > mui-checkbox + .skel-panels-fixed > mui-checkbox {
+  margin-top: -5px;
+}
+
+.skel-panels-fixed > mui-radio--inline,
+.skel-panels-fixed > mui-checkbox--inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.skel-panels-fixed > mui-radio--inline > input[type="radio"],
+.skel-panels-fixed > mui-radio--inline > input[type="checkbox"],
+.skel-panels-fixed > mui-radio--inline > label > input[type="radio"],
+.skel-panels-fixed > mui-radio--inline > label > input[type="checkbox"],
+.skel-panels-fixed > mui-checkbox--inline > input[type="radio"],
+.skel-panels-fixed > mui-checkbox--inline > input[type="checkbox"],
+.skel-panels-fixed > mui-checkbox--inline > label > input[type="radio"],
+.skel-panels-fixed > mui-checkbox--inline > label > input[type="checkbox"] {
+  margin: 4px 0 0;
+  line-height: normal;
+}
+
+.skel-panels-fixed > mui-radio--inline + .skel-panels-fixed > mui-radio--inline,
+.skel-panels-fixed > mui-checkbox--inline + .skel-panels-fixed > mui-checkbox--inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+/**
+ * MUI Container module
+ */
+.skel-panels-fixed > mui-container {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.skel-panels-fixed > mui-container:before, .skel-panels-fixed > mui-container:after {
+  content: " ";
+  display: table;
+}
+
+.skel-panels-fixed > mui-container:after {
+  clear: both;
+}
+
+@media (min-width: 544px) {
+  .skel-panels-fixed > mui-container {
+    max-width: 570px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skel-panels-fixed > mui-container {
+    max-width: 740px;
+  }
+}
+
+@media (min-width: 992px) {
+  .skel-panels-fixed > mui-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skel-panels-fixed > mui-container {
+    max-width: 1170px;
+  }
+}
+
+.skel-panels-fixed > mui-container-fluid {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.skel-panels-fixed > mui-container-fluid:before, .skel-panels-fixed > mui-container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+.skel-panels-fixed > mui-container-fluid:after {
+  clear: both;
+}
+
+/**
+ * MUI Divider Component and CSS Helpers
+ */
+.skel-panels-fixed > mui-divider {
+  display: block;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.skel-panels-fixed > mui--divider-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.skel-panels-fixed > mui--divider-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.skel-panels-fixed > mui--divider-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.skel-panels-fixed > mui--divider-right {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/**
+ * MUI Dropdown module
+ */
+.skel-panels-fixed > mui-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+[data-mui-toggle="dropdown"] {
+  outline: 0;
+}
+
+.skel-panels-fixed > mui-dropdown__menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #FFF;
+  border-radius: 2px;
+  z-index: 1;
+  background-clip: padding-box;
+}
+
+.skel-panels-fixed > mui-dropdown__menu.skel-panels-fixed > mui--is-open {
+  display: block;
+}
+
+.skel-panels-fixed > mui-dropdown__menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.429;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.skel-panels-fixed > mui-dropdown__menu > li > a:hover, .skel-panels-fixed > mui-dropdown__menu > li > a:focus {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #EEEEEE;
+}
+
+.skel-panels-fixed > mui-dropdown__menu > .skel-panels-fixed > mui--is-disabled > a, .skel-panels-fixed > mui-dropdown__menu > .skel-panels-fixed > mui--is-disabled > a:hover, .skel-panels-fixed > mui-dropdown__menu > .skel-panels-fixed > mui--is-disabled > a:focus {
+  color: #EEEEEE;
+}
+
+.skel-panels-fixed > mui-dropdown__menu > .skel-panels-fixed > mui--is-disabled > a:hover, .skel-panels-fixed > mui-dropdown__menu > .skel-panels-fixed > mui--is-disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  cursor: not-allowed;
+}
+
+.skel-panels-fixed > mui-dropdown__menu--right {
+  left: auto;
+  right: 0;
+}
+
+/**
+ * MUI Form Component
+ */
+.skel-panels-fixed > mui-form legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: inherit;
+  border: 0;
+}
+
+.skel-panels-fixed > mui-form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+@media (min-width: 544px) {
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-textfield {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0;
+  }
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-radio,
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-radio > label,
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-checkbox > label {
+    padding-left: 0;
+  }
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-radio > label > input[type="radio"],
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-checkbox > label > input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-select {
+    display: inline-block;
+  }
+  .skel-panels-fixed > mui-form--inline .skel-panels-fixed > mui-btn {
+    margin-bottom: 0;
+    margin-top: 0;
+    vertical-align: bottom;
+  }
+}
+
+/**
+ * MUI Grid module
+ */
+.skel-panels-fixed > mui-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.skel-panels-fixed > mui-row:before, .skel-panels-fixed > mui-row:after {
+  content: " ";
+  display: table;
+}
+
+.skel-panels-fixed > mui-row:after {
+  clear: both;
+}
+
+.skel-panels-fixed > mui-col-xs-1, .skel-panels-fixed > mui-col-sm-1, .skel-panels-fixed > mui-col-md-1, .skel-panels-fixed > mui-col-lg-1, .skel-panels-fixed > mui-col-xs-2, .skel-panels-fixed > mui-col-sm-2, .skel-panels-fixed > mui-col-md-2, .skel-panels-fixed > mui-col-lg-2, .skel-panels-fixed > mui-col-xs-3, .skel-panels-fixed > mui-col-sm-3, .skel-panels-fixed > mui-col-md-3, .skel-panels-fixed > mui-col-lg-3, .skel-panels-fixed > mui-col-xs-4, .skel-panels-fixed > mui-col-sm-4, .skel-panels-fixed > mui-col-md-4, .skel-panels-fixed > mui-col-lg-4, .skel-panels-fixed > mui-col-xs-5, .skel-panels-fixed > mui-col-sm-5, .skel-panels-fixed > mui-col-md-5, .skel-panels-fixed > mui-col-lg-5, .skel-panels-fixed > mui-col-xs-6, .skel-panels-fixed > mui-col-sm-6, .skel-panels-fixed > mui-col-md-6, .skel-panels-fixed > mui-col-lg-6, .skel-panels-fixed > mui-col-xs-7, .skel-panels-fixed > mui-col-sm-7, .skel-panels-fixed > mui-col-md-7, .skel-panels-fixed > mui-col-lg-7, .skel-panels-fixed > mui-col-xs-8, .skel-panels-fixed > mui-col-sm-8, .skel-panels-fixed > mui-col-md-8, .skel-panels-fixed > mui-col-lg-8, .skel-panels-fixed > mui-col-xs-9, .skel-panels-fixed > mui-col-sm-9, .skel-panels-fixed > mui-col-md-9, .skel-panels-fixed > mui-col-lg-9, .skel-panels-fixed > mui-col-xs-10, .skel-panels-fixed > mui-col-sm-10, .skel-panels-fixed > mui-col-md-10, .skel-panels-fixed > mui-col-lg-10, .skel-panels-fixed > mui-col-xs-11, .skel-panels-fixed > mui-col-sm-11, .skel-panels-fixed > mui-col-md-11, .skel-panels-fixed > mui-col-lg-11, .skel-panels-fixed > mui-col-xs-12, .skel-panels-fixed > mui-col-sm-12, .skel-panels-fixed > mui-col-md-12, .skel-panels-fixed > mui-col-lg-12 {
+  box-sizing: border-box;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.skel-panels-fixed > mui-col-xs-1, .skel-panels-fixed > mui-col-xs-2, .skel-panels-fixed > mui-col-xs-3, .skel-panels-fixed > mui-col-xs-4, .skel-panels-fixed > mui-col-xs-5, .skel-panels-fixed > mui-col-xs-6, .skel-panels-fixed > mui-col-xs-7, .skel-panels-fixed > mui-col-xs-8, .skel-panels-fixed > mui-col-xs-9, .skel-panels-fixed > mui-col-xs-10, .skel-panels-fixed > mui-col-xs-11, .skel-panels-fixed > mui-col-xs-12 {
+  float: left;
+}
+
+.skel-panels-fixed > mui-col-xs-1 {
+  width: 8.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-2 {
+  width: 16.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-3 {
+  width: 25%;
+}
+
+.skel-panels-fixed > mui-col-xs-4 {
+  width: 33.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-5 {
+  width: 41.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-6 {
+  width: 50%;
+}
+
+.skel-panels-fixed > mui-col-xs-7 {
+  width: 58.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-8 {
+  width: 66.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-9 {
+  width: 75%;
+}
+
+.skel-panels-fixed > mui-col-xs-10 {
+  width: 83.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-11 {
+  width: 91.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-12 {
+  width: 100%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-1 {
+  margin-left: 8.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-2 {
+  margin-left: 16.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-4 {
+  margin-left: 33.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-5 {
+  margin-left: 41.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-7 {
+  margin-left: 58.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-8 {
+  margin-left: 66.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-10 {
+  margin-left: 83.33333%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-11 {
+  margin-left: 91.66667%;
+}
+
+.skel-panels-fixed > mui-col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+@media (min-width: 544px) {
+  .skel-panels-fixed > mui-col-sm-1, .skel-panels-fixed > mui-col-sm-2, .skel-panels-fixed > mui-col-sm-3, .skel-panels-fixed > mui-col-sm-4, .skel-panels-fixed > mui-col-sm-5, .skel-panels-fixed > mui-col-sm-6, .skel-panels-fixed > mui-col-sm-7, .skel-panels-fixed > mui-col-sm-8, .skel-panels-fixed > mui-col-sm-9, .skel-panels-fixed > mui-col-sm-10, .skel-panels-fixed > mui-col-sm-11, .skel-panels-fixed > mui-col-sm-12 {
+    float: left;
+  }
+  .skel-panels-fixed > mui-col-sm-1 {
+    width: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-2 {
+    width: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-3 {
+    width: 25%;
+  }
+  .skel-panels-fixed > mui-col-sm-4 {
+    width: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-5 {
+    width: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-6 {
+    width: 50%;
+  }
+  .skel-panels-fixed > mui-col-sm-7 {
+    width: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-8 {
+    width: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-9 {
+    width: 75%;
+  }
+  .skel-panels-fixed > mui-col-sm-10 {
+    width: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-11 {
+    width: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-12 {
+    width: 100%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-0 {
+    margin-left: 0%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-1 {
+    margin-left: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-2 {
+    margin-left: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-4 {
+    margin-left: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-5 {
+    margin-left: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-7 {
+    margin-left: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-8 {
+    margin-left: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-10 {
+    margin-left: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-11 {
+    margin-left: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-sm-offset-12 {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .skel-panels-fixed > mui-col-md-1, .skel-panels-fixed > mui-col-md-2, .skel-panels-fixed > mui-col-md-3, .skel-panels-fixed > mui-col-md-4, .skel-panels-fixed > mui-col-md-5, .skel-panels-fixed > mui-col-md-6, .skel-panels-fixed > mui-col-md-7, .skel-panels-fixed > mui-col-md-8, .skel-panels-fixed > mui-col-md-9, .skel-panels-fixed > mui-col-md-10, .skel-panels-fixed > mui-col-md-11, .skel-panels-fixed > mui-col-md-12 {
+    float: left;
+  }
+  .skel-panels-fixed > mui-col-md-1 {
+    width: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-2 {
+    width: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-3 {
+    width: 25%;
+  }
+  .skel-panels-fixed > mui-col-md-4 {
+    width: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-5 {
+    width: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-6 {
+    width: 50%;
+  }
+  .skel-panels-fixed > mui-col-md-7 {
+    width: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-8 {
+    width: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-9 {
+    width: 75%;
+  }
+  .skel-panels-fixed > mui-col-md-10 {
+    width: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-11 {
+    width: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-12 {
+    width: 100%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-0 {
+    margin-left: 0%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-1 {
+    margin-left: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-2 {
+    margin-left: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-4 {
+    margin-left: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-5 {
+    margin-left: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-7 {
+    margin-left: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-8 {
+    margin-left: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-10 {
+    margin-left: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-11 {
+    margin-left: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-md-offset-12 {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .skel-panels-fixed > mui-col-lg-1, .skel-panels-fixed > mui-col-lg-2, .skel-panels-fixed > mui-col-lg-3, .skel-panels-fixed > mui-col-lg-4, .skel-panels-fixed > mui-col-lg-5, .skel-panels-fixed > mui-col-lg-6, .skel-panels-fixed > mui-col-lg-7, .skel-panels-fixed > mui-col-lg-8, .skel-panels-fixed > mui-col-lg-9, .skel-panels-fixed > mui-col-lg-10, .skel-panels-fixed > mui-col-lg-11, .skel-panels-fixed > mui-col-lg-12 {
+    float: left;
+  }
+  .skel-panels-fixed > mui-col-lg-1 {
+    width: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-2 {
+    width: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-3 {
+    width: 25%;
+  }
+  .skel-panels-fixed > mui-col-lg-4 {
+    width: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-5 {
+    width: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-6 {
+    width: 50%;
+  }
+  .skel-panels-fixed > mui-col-lg-7 {
+    width: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-8 {
+    width: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-9 {
+    width: 75%;
+  }
+  .skel-panels-fixed > mui-col-lg-10 {
+    width: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-11 {
+    width: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-12 {
+    width: 100%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-0 {
+    margin-left: 0%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-1 {
+    margin-left: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-2 {
+    margin-left: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-4 {
+    margin-left: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-5 {
+    margin-left: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-7 {
+    margin-left: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-8 {
+    margin-left: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-10 {
+    margin-left: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-11 {
+    margin-left: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-lg-offset-12 {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skel-panels-fixed > mui-col-xl-1, .skel-panels-fixed > mui-col-xl-2, .skel-panels-fixed > mui-col-xl-3, .skel-panels-fixed > mui-col-xl-4, .skel-panels-fixed > mui-col-xl-5, .skel-panels-fixed > mui-col-xl-6, .skel-panels-fixed > mui-col-xl-7, .skel-panels-fixed > mui-col-xl-8, .skel-panels-fixed > mui-col-xl-9, .skel-panels-fixed > mui-col-xl-10, .skel-panels-fixed > mui-col-xl-11, .skel-panels-fixed > mui-col-xl-12 {
+    float: left;
+  }
+  .skel-panels-fixed > mui-col-xl-1 {
+    width: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-2 {
+    width: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-3 {
+    width: 25%;
+  }
+  .skel-panels-fixed > mui-col-xl-4 {
+    width: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-5 {
+    width: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-6 {
+    width: 50%;
+  }
+  .skel-panels-fixed > mui-col-xl-7 {
+    width: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-8 {
+    width: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-9 {
+    width: 75%;
+  }
+  .skel-panels-fixed > mui-col-xl-10 {
+    width: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-11 {
+    width: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-12 {
+    width: 100%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-0 {
+    margin-left: 0%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-1 {
+    margin-left: 8.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-2 {
+    margin-left: 16.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-3 {
+    margin-left: 25%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-4 {
+    margin-left: 33.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-5 {
+    margin-left: 41.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-6 {
+    margin-left: 50%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-7 {
+    margin-left: 58.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-8 {
+    margin-left: 66.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-9 {
+    margin-left: 75%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-10 {
+    margin-left: 83.33333%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-11 {
+    margin-left: 91.66667%;
+  }
+  .skel-panels-fixed > mui-col-xl-offset-12 {
+    margin-left: 100%;
+  }
+}
+
+/**
+ * MUI Panel module
+ */
+.skel-panels-fixed > mui-panel {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  background-color: #FFF;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.skel-panels-fixed > mui-panel:before, .skel-panels-fixed > mui-panel:after {
+  content: " ";
+  display: table;
+}
+
+.skel-panels-fixed > mui-panel:after {
+  clear: both;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skel-panels-fixed > mui-panel {
+    box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.12), -1px 0px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .skel-panels-fixed > mui-panel {
+    box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.12), -1px 0px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+  }
+}
+
+/**
+ * MUI Select Component
+ */
+.skel-panels-fixed > mui-select {
+  display: block;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.skel-panels-fixed > mui-select:focus {
+  outline: 0;
+}
+
+.skel-panels-fixed > mui-select:focus > select {
+  height: 33px;
+  margin-bottom: -1px;
+  border-color: #2196F3;
+  border-width: 2px;
+}
+
+.skel-panels-fixed > mui-select > select {
+  display: block;
+  height: 32px;
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNiIgd2lkdGg9IjEwIj48cG9seWdvbiBwb2ludHM9IjAsMCAxMCwwIDUsNiIgc3R5bGU9ImZpbGw6cmdiYSgwLDAsMCwuMjQpOyIvPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  font-family: inherit;
+  line-height: inherit;
+  padding: 0 25px 0 0;
+}
+
+.skel-panels-fixed > mui-select > select::-ms-expand {
+  display: none;
+}
+
+.skel-panels-fixed > mui-select > select:focus {
+  outline: 0;
+  height: 33px;
+  margin-bottom: -1px;
+  border-color: #2196F3;
+  border-width: 2px;
+}
+
+.skel-panels-fixed > mui-select > select:disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: not-allowed;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-select > select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+.skel-panels-fixed > mui-select > select:focus::-ms-value {
+  background: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.skel-panels-fixed > mui-select > label {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skel-panels-fixed > mui-select:focus > label,
+.skel-panels-fixed > mui-select > select:focus ~ label {
+  color: #2196F3;
+}
+
+.skel-panels-fixed > mui-select__menu {
+  position: absolute;
+  z-index: 2;
+  min-width: 100%;
+  overflow-y: auto;
+  padding: 8px 0;
+  background-color: #FFF;
+  font-size: 16px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skel-panels-fixed > mui-select__menu {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .skel-panels-fixed > mui-select__menu {
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+  }
+}
+
+.skel-panels-fixed > mui-select__menu > div {
+  padding: 0 22px;
+  height: 42px;
+  line-height: 42px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.skel-panels-fixed > mui-select__menu > div.skel-panels-fixed > mui--is-selected {
+  background-color: #EEEEEE;
+}
+
+.skel-panels-fixed > mui-select__menu > div.skel-panels-fixed > mui--is-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: not-allowed;
+}
+
+.skel-panels-fixed > mui-select__menu > div:not(.skel-panels-fixed > mui-optgroup__label):not(.skel-panels-fixed > mui--is-disabled):hover {
+  background-color: #E0E0E0;
+}
+
+.skel-panels-fixed > mui-optgroup__option {
+  text-indent: 1em;
+}
+
+.skel-panels-fixed > mui-optgroup__label {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.9em;
+}
+
+/**
+ * MUI Table Component
+ */
+.skel-panels-fixed > mui-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.skel-panels-fixed > mui-table > thead > tr > th,
+.skel-panels-fixed > mui-table > tbody > tr > th,
+.skel-panels-fixed > mui-table > tfoot > tr > th {
+  text-align: left;
+}
+
+.skel-panels-fixed > mui-table > thead > tr > th,
+.skel-panels-fixed > mui-table > thead > tr > td,
+.skel-panels-fixed > mui-table > tbody > tr > th,
+.skel-panels-fixed > mui-table > tbody > tr > td,
+.skel-panels-fixed > mui-table > tfoot > tr > th,
+.skel-panels-fixed > mui-table > tfoot > tr > td {
+  padding: 10px;
+  line-height: 1.429;
+}
+
+.skel-panels-fixed > mui-table > thead > tr > th {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  font-weight: 700;
+}
+
+.skel-panels-fixed > mui-table > tbody + tbody {
+  border-top: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.skel-panels-fixed > mui-table.skel-panels-fixed > mui-table--bordered > tbody > tr > td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/**
+ * MUI Tabs module
+ */
+.skel-panels-fixed > mui-tabs__bar {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.skel-panels-fixed > mui-tabs__bar > li {
+  display: inline-block;
+}
+
+.skel-panels-fixed > mui-tabs__bar > li > a {
+  display: block;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: default;
+  height: 48px;
+  line-height: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.skel-panels-fixed > mui-tabs__bar > li > a:hover {
+  text-decoration: none;
+}
+
+.skel-panels-fixed > mui-tabs__bar > li.skel-panels-fixed > mui--is-active {
+  border-bottom: 2px solid #2196F3;
+}
+
+.skel-panels-fixed > mui-tabs__bar > li.skel-panels-fixed > mui--is-active > a {
+  color: #2196F3;
+}
+
+.skel-panels-fixed > mui-tabs__bar.skel-panels-fixed > mui-tabs__bar--justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.skel-panels-fixed > mui-tabs__bar.skel-panels-fixed > mui-tabs__bar--justified > li {
+  display: table-cell;
+}
+
+.skel-panels-fixed > mui-tabs__bar.skel-panels-fixed > mui-tabs__bar--justified > li > a {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.skel-panels-fixed > mui-tabs__pane {
+  display: none;
+}
+
+.skel-panels-fixed > mui-tabs__pane.skel-panels-fixed > mui--is-active {
+  display: block;
+}
+
+/**
+ * MUI Textfield Component
+ */
+.skel-panels-fixed > mui-textfield {
+  display: block;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.skel-panels-fixed > mui-textfield > label {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skel-panels-fixed > mui-textfield > textarea {
+  padding-top: 5px;
+}
+
+.skel-panels-fixed > mui-textfield > input:focus ~ label,
+.skel-panels-fixed > mui-textfield > textarea:focus ~ label {
+  color: #2196F3;
+}
+
+.skel-panels-fixed > mui-textfield--float-label > label {
+  position: absolute;
+  transform: translate(0px, 15px);
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.26);
+  text-overflow: clip;
+  cursor: text;
+  pointer-events: none;
+}
+
+.skel-panels-fixed > mui-textfield--float-label > input:focus ~ label,
+.skel-panels-fixed > mui-textfield--float-label > textarea:focus ~ label {
+  transform: translate(0px, 0px);
+  font-size: 12px;
+  line-height: 15px;
+  text-overflow: ellipsis;
+}
+
+.skel-panels-fixed > mui-textfield--float-label > input:not(:focus).skel-panels-fixed > mui--is-not-empty ~ label, .skel-panels-fixed > mui-textfield--float-label > input:not(:focus)[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label, .skel-panels-fixed > mui-textfield--float-label > input:not(:focus):not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label,
+.skel-panels-fixed > mui-textfield--float-label > textarea:not(:focus).skel-panels-fixed > mui--is-not-empty ~ label,
+.skel-panels-fixed > mui-textfield--float-label > textarea:not(:focus)[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label,
+.skel-panels-fixed > mui-textfield--float-label > textarea:not(:focus):not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 12px;
+  line-height: 15px;
+  transform: translate(0px, 0px);
+  text-overflow: ellipsis;
+}
+
+.skel-panels-fixed > mui-textfield--wrap-label {
+  display: table;
+  width: 100%;
+  padding-top: 0px;
+}
+
+.skel-panels-fixed > mui-textfield--wrap-label:not(.skel-panels-fixed > mui-textfield--float-label) > label {
+  display: table-header-group;
+  position: static;
+  white-space: normal;
+  overflow-x: visible;
+}
+
+.skel-panels-fixed > mui-textfield > input,
+.skel-panels-fixed > mui-textfield > textarea {
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  outline: none;
+  width: 100%;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: inherit;
+  background-image: none;
+}
+
+.skel-panels-fixed > mui-textfield > input:focus,
+.skel-panels-fixed > mui-textfield > textarea:focus {
+  border-color: #2196F3;
+  border-width: 2px;
+}
+
+.skel-panels-fixed > mui-textfield > input:disabled, .skel-panels-fixed > mui-textfield > input:-moz-read-only,
+.skel-panels-fixed > mui-textfield > textarea:disabled,
+.skel-panels-fixed > mui-textfield > textarea:-moz-read-only {
+  cursor: not-allowed;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-textfield > input:disabled, .skel-panels-fixed > mui-textfield > input:read-only,
+.skel-panels-fixed > mui-textfield > textarea:disabled,
+.skel-panels-fixed > mui-textfield > textarea:read-only {
+  cursor: not-allowed;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-textfield > input::-webkit-input-placeholder,
+.skel-panels-fixed > mui-textfield > textarea::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.26);
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-textfield > input::-moz-placeholder,
+.skel-panels-fixed > mui-textfield > textarea::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.26);
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-textfield > input:-ms-input-placeholder,
+.skel-panels-fixed > mui-textfield > textarea:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.26);
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-textfield > input::placeholder,
+.skel-panels-fixed > mui-textfield > textarea::placeholder {
+  color: rgba(0, 0, 0, 0.26);
+  opacity: 1;
+}
+
+.skel-panels-fixed > mui-textfield > input {
+  height: 32px;
+}
+
+.skel-panels-fixed > mui-textfield > input:focus {
+  height: 33px;
+  margin-bottom: -1px;
+}
+
+.skel-panels-fixed > mui-textfield > textarea {
+  min-height: 64px;
+}
+
+.skel-panels-fixed > mui-textfield > textarea[rows]:not([rows="2"]):focus {
+  margin-bottom: -1px;
+}
+
+.skel-panels-fixed > mui-textfield > input:focus {
+  height: 33px;
+  margin-bottom: -1px;
+}
+
+.skel-panels-fixed > mui-textfield > input:invalid:not(:focus):not(:required), .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty, .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched, .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty), .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > textarea:invalid:not(:focus):not(:required),
+.skel-panels-fixed > mui-textfield > textarea:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty,
+.skel-panels-fixed > mui-textfield > textarea:invalid:not(:focus):required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched,
+.skel-panels-fixed > mui-textfield > textarea:invalid:not(:focus):required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > textarea:invalid:not(:focus):required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:not(:required),
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required.skel-panels-fixed > mui--is-not-empty,
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched,
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > textarea:not(:focus).skel-panels-fixed > mui--is-invalid:not(:required),
+.skel-panels-fixed > mui-textfield > textarea:not(:focus).skel-panels-fixed > mui--is-invalid:required.skel-panels-fixed > mui--is-not-empty,
+.skel-panels-fixed > mui-textfield > textarea:not(:focus).skel-panels-fixed > mui--is-invalid:required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched,
+.skel-panels-fixed > mui-textfield > textarea:not(:focus).skel-panels-fixed > mui--is-invalid:required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > textarea:not(:focus).skel-panels-fixed > mui--is-invalid:required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) {
+  border-color: #F44336;
+  border-width: 2px;
+}
+
+.skel-panels-fixed > mui-textfield > input:invalid:not(:focus):not(:required), .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty, .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched, .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty), .skel-panels-fixed > mui-textfield > input:invalid:not(:focus):required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:not(:required),
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required.skel-panels-fixed > mui--is-not-empty,
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched,
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty),
+.skel-panels-fixed > mui-textfield > input:not(:focus).skel-panels-fixed > mui--is-invalid:required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) {
+  height: 33px;
+  margin-bottom: -1px;
+}
+
+.skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > input:invalid:not(:focus):not(:required) ~ label, .skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty ~ label, .skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > input:invalid:not(:focus):required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label, .skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > input:invalid:not(:focus):required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label,
+.skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > textarea:invalid:not(:focus):not(:required) ~ label,
+.skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > textarea:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty ~ label,
+.skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > textarea:invalid:not(:focus):required[value]:not([value=""]):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label,
+.skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > textarea:invalid:not(:focus):required:not(:empty):not(.skel-panels-fixed > mui--is-empty):not(.skel-panels-fixed > mui--is-not-empty) ~ label {
+  color: #F44336;
+}
+
+.skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > input:invalid:not(:focus):not(:required) ~ label, .skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched ~ label, .skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > input:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty ~ label,
+.skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > textarea:invalid:not(:focus):not(:required) ~ label,
+.skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > textarea:invalid:not(:focus):required.skel-panels-fixed > mui--is-empty.skel-panels-fixed > mui--is-touched ~ label,
+.skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > textarea:invalid:not(:focus):required.skel-panels-fixed > mui--is-not-empty ~ label {
+  color: #F44336;
+}
+
+.skel-panels-fixed > mui-textfield.skel-panels-fixed > mui-textfield--float-label > .skel-panels-fixed > mui--is-invalid.skel-panels-fixed > mui--is-not-empty:not(:focus) ~ label {
+  color: #F44336;
+}
+
+.skel-panels-fixed > mui-textfield:not(.skel-panels-fixed > mui-textfield--float-label) > .skel-panels-fixed > mui--is-invalid:not(:focus) ~ label {
+  color: #F44336;
+}
+
+/**
+ * MUI Helpers module
+ */
+.skel-panels-fixed > mui--no-transition {
+  transition: none !important;
+}
+
+.skel-panels-fixed > mui--no-user-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.skel-panels-fixed > mui-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.skel-panels-fixed > mui--text-left {
+  text-align: left !important;
+}
+
+.skel-panels-fixed > mui--text-right {
+  text-align: right !important;
+}
+
+.skel-panels-fixed > mui--text-center {
+  text-align: center !important;
+}
+
+.skel-panels-fixed > mui--text-justify {
+  text-align: justify !important;
+}
+
+.skel-panels-fixed > mui--text-nowrap {
+  white-space: nowrap !important;
+}
+
+.skel-panels-fixed > mui--align-baseline {
+  vertical-align: baseline !important;
+}
+
+.skel-panels-fixed > mui--align-top {
+  vertical-align: top !important;
+}
+
+.skel-panels-fixed > mui--align-middle {
+  vertical-align: middle !important;
+}
+
+.skel-panels-fixed > mui--align-bottom {
+  vertical-align: bottom !important;
+}
+
+.skel-panels-fixed > mui--text-dark {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.skel-panels-fixed > mui--text-dark-secondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.skel-panels-fixed > mui--text-dark-hint {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.skel-panels-fixed > mui--text-light {
+  color: #FFF;
+}
+
+.skel-panels-fixed > mui--text-light-secondary {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.skel-panels-fixed > mui--text-light-hint {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.skel-panels-fixed > mui--text-accent {
+  color: rgba(255, 64, 129, 0.87);
+}
+
+.skel-panels-fixed > mui--text-accent-secondary {
+  color: rgba(255, 64, 129, 0.54);
+}
+
+.skel-panels-fixed > mui--text-accent-hint {
+  color: rgba(255, 64, 129, 0.38);
+}
+
+.skel-panels-fixed > mui--text-black {
+  color: #000;
+}
+
+.skel-panels-fixed > mui--text-white {
+  color: #FFF;
+}
+
+.skel-panels-fixed > mui--text-danger {
+  color: #F44336;
+}
+
+.skel-panels-fixed > mui--bg-primary {
+  background-color: #2196F3;
+}
+
+.skel-panels-fixed > mui--bg-primary-dark {
+  background-color: #1976D2;
+}
+
+.skel-panels-fixed > mui--bg-primary-light {
+  background-color: #BBDEFB;
+}
+
+.skel-panels-fixed > mui--bg-accent {
+  background-color: #FF4081;
+}
+
+.skel-panels-fixed > mui--bg-accent-dark {
+  background-color: #F50057;
+}
+
+.skel-panels-fixed > mui--bg-accent-light {
+  background-color: #FF80AB;
+}
+
+.skel-panels-fixed > mui--bg-danger {
+  background-color: #F44336;
+}
+
+.skel-panels-fixed > mui-list--unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.skel-panels-fixed > mui-list--inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+}
+
+.skel-panels-fixed > mui-list--inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.skel-panels-fixed > mui--z1, .skel-panels-fixed > mui-dropdown__menu, .skel-panels-fixed > mui-select__menu {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.skel-panels-fixed > mui--z2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.skel-panels-fixed > mui--z3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.skel-panels-fixed > mui--z4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skel-panels-fixed > mui--z5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.skel-panels-fixed > mui--clearfix:before, .skel-panels-fixed > mui--clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.skel-panels-fixed > mui--clearfix:after {
+  clear: both;
+}
+
+.skel-panels-fixed > mui--pull-right {
+  float: right !important;
+}
+
+.skel-panels-fixed > mui--pull-left {
+  float: left !important;
+}
+
+.skel-panels-fixed > mui--hide {
+  display: none !important;
+}
+
+.skel-panels-fixed > mui--show {
+  display: block !important;
+}
+
+.skel-panels-fixed > mui--invisible {
+  visibility: hidden;
+}
+
+.skel-panels-fixed > mui--overflow-hidden {
+  overflow: hidden !important;
+}
+
+.skel-panels-fixed > mui--overflow-hidden-x {
+  overflow-x: hidden !important;
+}
+
+.skel-panels-fixed > mui--overflow-hidden-y {
+  overflow-y: hidden !important;
+}
+
+.skel-panels-fixed > mui--visible-xs-block,
+.skel-panels-fixed > mui--visible-xs-inline,
+.skel-panels-fixed > mui--visible-xs-inline-block,
+.skel-panels-fixed > mui--visible-sm-block,
+.skel-panels-fixed > mui--visible-sm-inline,
+.skel-panels-fixed > mui--visible-sm-inline-block,
+.skel-panels-fixed > mui--visible-md-block,
+.skel-panels-fixed > mui--visible-md-inline,
+.skel-panels-fixed > mui--visible-md-inline-block,
+.skel-panels-fixed > mui--visible-lg-block,
+.skel-panels-fixed > mui--visible-lg-inline,
+.skel-panels-fixed > mui--visible-lg-inline-block,
+.skel-panels-fixed > mui--visible-xl-block,
+.skel-panels-fixed > mui--visible-xl-inline,
+.skel-panels-fixed > mui--visible-xl-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 543px) {
+  .skel-panels-fixed > mui-visible-xs {
+    display: block !important;
+  }
+  table.skel-panels-fixed > mui-visible-xs {
+    display: table;
+  }
+  tr.skel-panels-fixed > mui-visible-xs {
+    display: table-row !important;
+  }
+  th.skel-panels-fixed > mui-visible-xs,
+  td.skel-panels-fixed > mui-visible-xs {
+    display: table-cell !important;
+  }
+  .skel-panels-fixed > mui--visible-xs-block {
+    display: block !important;
+  }
+  .skel-panels-fixed > mui--visible-xs-inline {
+    display: inline !important;
+  }
+  .skel-panels-fixed > mui--visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 544px) and (max-width: 767px) {
+  .skel-panels-fixed > mui-visible-sm {
+    display: block !important;
+  }
+  table.skel-panels-fixed > mui-visible-sm {
+    display: table;
+  }
+  tr.skel-panels-fixed > mui-visible-sm {
+    display: table-row !important;
+  }
+  th.skel-panels-fixed > mui-visible-sm,
+  td.skel-panels-fixed > mui-visible-sm {
+    display: table-cell !important;
+  }
+  .skel-panels-fixed > mui--visible-sm-block {
+    display: block !important;
+  }
+  .skel-panels-fixed > mui--visible-sm-inline {
+    display: inline !important;
+  }
+  .skel-panels-fixed > mui--visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .skel-panels-fixed > mui-visible-md {
+    display: block !important;
+  }
+  table.skel-panels-fixed > mui-visible-md {
+    display: table;
+  }
+  tr.skel-panels-fixed > mui-visible-md {
+    display: table-row !important;
+  }
+  th.skel-panels-fixed > mui-visible-md,
+  td.skel-panels-fixed > mui-visible-md {
+    display: table-cell !important;
+  }
+  .skel-panels-fixed > mui--visible-md-block {
+    display: block !important;
+  }
+  .skel-panels-fixed > mui--visible-md-inline {
+    display: inline !important;
+  }
+  .skel-panels-fixed > mui--visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .skel-panels-fixed > mui-visible-lg {
+    display: block !important;
+  }
+  table.skel-panels-fixed > mui-visible-lg {
+    display: table;
+  }
+  tr.skel-panels-fixed > mui-visible-lg {
+    display: table-row !important;
+  }
+  th.skel-panels-fixed > mui-visible-lg,
+  td.skel-panels-fixed > mui-visible-lg {
+    display: table-cell !important;
+  }
+  .skel-panels-fixed > mui--visible-lg-block {
+    display: block !important;
+  }
+  .skel-panels-fixed > mui--visible-lg-inline {
+    display: inline !important;
+  }
+  .skel-panels-fixed > mui--visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skel-panels-fixed > mui-visible-xl {
+    display: block !important;
+  }
+  table.skel-panels-fixed > mui-visible-xl {
+    display: table;
+  }
+  tr.skel-panels-fixed > mui-visible-xl {
+    display: table-row !important;
+  }
+  th.skel-panels-fixed > mui-visible-xl,
+  td.skel-panels-fixed > mui-visible-xl {
+    display: table-cell !important;
+  }
+  .skel-panels-fixed > mui--visible-xl-block {
+    display: block !important;
+  }
+  .skel-panels-fixed > mui--visible-xl-inline {
+    display: inline !important;
+  }
+  .skel-panels-fixed > mui--visible-xl-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 543px) {
+  .skel-panels-fixed > mui--hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 544px) and (max-width: 767px) {
+  .skel-panels-fixed > mui--hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .skel-panels-fixed > mui--hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .skel-panels-fixed > mui--hidden-lg {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .skel-panels-fixed > mui--hidden-xl {
+    display: none !important;
+  }
+}
+
+.skel-panels-fixed > mui-scrlock--showbar-y {
+  overflow-y: scroll !important;
+}
+
+.skel-panels-fixed > mui-scrlock--showbar-x {
+  overflow-x: scroll !important;
+}
+
+/**
+ * MUI Overlay module
+ */
+#mui-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999999;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: auto;
+}
+
+/**
+ * MUI Ripple module
+ */
+.skel-panels-fixed > mui-btn__ripple-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.skel-panels-fixed > mui-ripple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.0001, 0.0001);
+}
+
+.skel-panels-fixed > mui-ripple.skel-panels-fixed > mui--is-animating {
+  transform: none;
+  transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1), width 0.3s cubic-bezier(0, 0, 0.2, 1), height 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.skel-panels-fixed > mui-ripple.skel-panels-fixed > mui--is-visible {
+  opacity: 0.3;
+}
+
+.skel-panels-fixed > mui-btn .skel-panels-fixed > mui-ripple {
+  background-color: #a6a6a6;
+}
+
+.skel-panels-fixed > mui-btn--primary .skel-panels-fixed > mui-ripple {
+  background-color: #FFF;
+}
+
+.skel-panels-fixed > mui-btn--dark .skel-panels-fixed > mui-ripple {
+  background-color: #FFF;
+}
+
+.skel-panels-fixed > mui-btn--danger .skel-panels-fixed > mui-ripple {
+  background-color: #FFF;
+}
+
+.skel-panels-fixed > mui-btn--accent .skel-panels-fixed > mui-ripple {
+  background-color: #FFF;
+}
+
+.skel-panels-fixed > mui-btn--flat .skel-panels-fixed > mui-ripple {
+  background-color: #a6a6a6;
+}
+
+/**
+ * MUI Typography module
+ */
+.skel-panels-fixed > mui--text-display4 {
+  font-weight: 300;
+  font-size: 112px;
+  line-height: 112px;
+}
+
+.skel-panels-fixed > mui--text-display3 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+}
+
+.skel-panels-fixed > mui--text-display2 {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 48px;
+}
+
+.skel-panels-fixed > mui--text-display1, h1 {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.skel-panels-fixed > mui--text-headline, h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.skel-panels-fixed > mui--text-title, h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.skel-panels-fixed > mui--text-subhead, h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.skel-panels-fixed > mui--text-body2, h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.skel-panels-fixed > mui--text-body1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.skel-panels-fixed > mui--text-caption {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.skel-panels-fixed > mui--text-menu {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.skel-panels-fixed > mui--text-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
